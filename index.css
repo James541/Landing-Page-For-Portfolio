@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(7, 3, 37);
+    background-color: rgb(19, 34, 83);
+    /* good bg color is rgb 7,3,37 */
 }
 
-.name {
+.main {
     color:darkgrey;
     font-size: 48px;
     position: absolute;
@@ -10,7 +11,16 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     
+    
 
+}
+
+.name{
+   
+    text-align: center;
+    border-radius: 10px;
+   
+   
 }
 
 p {
@@ -26,17 +36,28 @@ p {
     font-size: 100px;
     margin-right:50px;
     margin-left:50px;
-    
-    
-
-    
+      
 }
 
 h1 {
     text-shadow: -1px -1px 0 #000,  
-                 1px -1px 0 #000,  
-                 -1px 1px 0 #000,  
+                 2px -1px 0 #000,  
+                 -1px 2px 0 #000,  
                  1px 1px 0 #000;
   }
   
+button {
+width: 125px;
+height: 38px;
+/*font-size: 24px;*/
+margin-bottom:20px;
+background-color:darkgrey;
+border-radius: 10px;
+color:white;
+text-align: center;
+}
 
+
+
+
+  
