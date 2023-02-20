@@ -4,7 +4,7 @@ body {
 
 .name {
     color:darkgrey;
-    font-size: 50px;
+    font-size: 48px;
     position: absolute;
     top:50%;
     left: 50%;
@@ -31,4 +31,12 @@ p {
 
     
 }
+
+h1 {
+    text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0 #000,  
+                 -1px 1px 0 #000,  
+                 1px 1px 0 #000;
+  }
+  
 
