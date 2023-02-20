@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(7, 3, 37);
+}
+
+.name {
+    color:darkgrey;
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+p {
+    color:darkgrey;
+    font-size: 28px;
+    position: relative;
+    top:50%;
+    
+    
+}
